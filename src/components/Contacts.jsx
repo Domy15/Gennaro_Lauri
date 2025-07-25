@@ -6,7 +6,7 @@ const Contacts = () => {
         <div className="padding-standard" id="contatti">
             <div className="w-50 mx-auto text-center">
                 <h2 className="font-libre fs-1 text-white">Realizza il Tuo Progetto con un Partner Affidabile.</h2>
-                <p className="fs-5 mt-4" style={{ color: "#D1D5D0" }}>Sia che tu stia pensando di costruire la casa dei tuoi sogni, riqualificare un immobile esistente o sviluppare un nuovo spazio commerciale, sono qui per trasformare la tua visione in una solida realtà, con passione e competenza.</p>
+                <p className="fs-5 mt-4" style={{ color: "#ffffffff" }}>Sia che tu stia pensando di costruire la casa dei tuoi sogni, riqualificare un immobile esistente o sviluppare un nuovo spazio commerciale, sono qui per trasformare la tua visione in una solida realtà, con passione e competenza.</p>
             </div>
             <div className="mt-5 mx-auto d-lg-flex" style={{ width: "85%" }}>
                 <div className="w-xl-50 align-items-center d-lg-flex">
@@ -14,7 +14,7 @@ const Contacts = () => {
                         <img src="/foto.jpg" style={{ width: "20em" }} />
                     </Col>
                     <Col xl={6}>
-                        <p className="fs-5 mt-4" style={{ color: "#D1D5D0" }}>
+                        <p className="fs-5 mt-4" style={{ color: "#c2c2c2ff" }}>
                             <em>
                                 Sono un giovane
                                 professionista con una forte
