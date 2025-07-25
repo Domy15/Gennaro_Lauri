@@ -1,4 +1,5 @@
 import { Row, Col } from "react-bootstrap";
+import { Instagram } from "react-bootstrap-icons";
 
 const Contacts = () => {
     return (
@@ -38,12 +39,12 @@ const Contacts = () => {
                         </p>
                     </Col>
                 </Row>
-                <div className="text-center w-50 mx-auto">
+                <div className="text-center w-50 m-auto">
                     <p className="mb-3 fw-semibold fs-5" style={{color: "#9CA3AF"}}>Arch. Gennaro Lauri</p>
                     <p className="mb-2">📧 <a className="footer-link text-decoration-none" style={{color: "#9CA3AF"}}>Email: arch.gennarolauri@gmail.com</a></p>
                     <p className="mb-2">✉️ <a className="footer-link text-decoration-none" style={{color: "#9CA3AF"}}>Pec: gennaro.lauri@archiworldpec.it</a></p>
+                    <p className="mb-2"><Instagram className="text-white me-2" /><a href="https://www.instagram.com/gennaro_lauri_architetetto/" className="footer-link" style={{color: "#9CA3AF"}}>gennaro_lauri_architetetto</a></p>
                     <p className="mb-2">📱 <a className="footer-link text-decoration-none" style={{color: "#9CA3AF"}}>+39 366 30 53 166</a></p>
-                    <p className="mb-2"><a href="https://www.instagram.com/gennaro_lauri_architetetto/" className="footer-link" style={{color: "#9CA3AF"}}>gennaro_lauri_architetetto</a></p>
                     <p style={{color: "#9CA3AF"}}>📍 Padova</p>
                 </div>
             </div>
