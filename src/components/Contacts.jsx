@@ -8,12 +8,12 @@ const Contacts = () => {
                 <h2 className="font-libre fs-1 text-white">Realizza il Tuo Progetto con un Partner Affidabile.</h2>
                 <p className="fs-5 mt-4" style={{ color: "#D1D5D0" }}>Sia che tu stia pensando di costruire la casa dei tuoi sogni, riqualificare un immobile esistente o sviluppare un nuovo spazio commerciale, sono qui per trasformare la tua visione in una solida realtà, con passione e competenza.</p>
             </div>
-            <div className="mt-5 mx-auto d-flex" style={{ width: "85%" }}>
-                <Row className="w-50 align-items-center">
-                    <Col xs={6}>
+            <div className="mt-5 mx-auto d-lg-flex" style={{ width: "85%" }}>
+                <div className="w-xl-50 align-items-center d-lg-flex">
+                    <Col xl={6}>
                         <img src="/foto.jpg" style={{ width: "20em" }} />
                     </Col>
-                    <Col xs={6}>
+                    <Col xl={6}>
                         <p className="fs-5 mt-4" style={{ color: "#D1D5D0" }}>
                             <em>
                                 Sono un giovane
@@ -40,7 +40,7 @@ const Contacts = () => {
                             </em>
                         </p>
                     </Col>
-                </Row>
+                </div>
                 <div className="text-center w-50 m-auto">
                     <p className="mb-3 fw-semibold fs-5" style={{ color: "#9CA3AF" }}>Arch. Gennaro Lauri</p>
                     <p className="mb-2">📧 <a className="footer-link text-decoration-none" style={{ color: "#9CA3AF" }}>Email: arch.gennarolauri@gmail.com</a></p>
