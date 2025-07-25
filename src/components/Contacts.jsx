@@ -11,7 +11,7 @@ const Contacts = () => {
             <div className="mt-5 mx-auto d-flex" style={{ width: "85%" }}>
                 <Row className="w-50 align-items-center">
                     <Col xs={6}>
-                        <img src="public\foto.jpg" style={{ width: "20em" }} />
+                        <img src="Gennaro_Lauri\public\foto.jpg" style={{ width: "20em" }} />
                     </Col>
                     <Col xs={6}>
                         <p className="fs-5 mt-4" style={{ color: "#D1D5D0" }}>
