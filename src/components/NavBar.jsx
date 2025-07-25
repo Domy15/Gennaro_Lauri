@@ -7,7 +7,7 @@ const NavBar = () => {
                 <Container className="container-custom">
                     <Navbar.Brand href="#" className="d-flex fw-bold fs-4 m-0">
                         <div className="d-flex align-items-center">
-                            <img src="src\assets\logo.jpg" style={{ width: "2.5em" }} />
+                            <img src="public\logo.jpg" style={{ width: "2.5em" }} />
                             <p className="m-0">Gennaro Lauri <span style={{ color: '#b1977a' }}>Architetto</span></p>
                         </div>
                     </Navbar.Brand>
