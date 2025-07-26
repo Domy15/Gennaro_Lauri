@@ -2,7 +2,7 @@ import { Button, Col, Row } from "react-bootstrap";
 
 const Services = () => {
     return (
-        <div className="mx-auto text-center padding-standard w-50 text-white" id="servizi">
+        <div className="mx-auto text-center padding-standard service-container text-white" id="servizi">
             <h2 className="font-libre fs-1">I Miei Servizi</h2>
             <p className="fs-5 my-0">
                 Dall'idea alla consegna, un supporto completo e professionale per ogni tua esigenza progettuale.

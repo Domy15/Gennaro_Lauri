@@ -4,13 +4,13 @@ import { Instagram } from "react-bootstrap-icons";
 const Contacts = () => {
     return (
         <div className="padding-standard" id="contatti">
-            <div className="w-50 mx-auto text-center">
+            <div className="w-xl-50 mx-auto text-center">
                 <h2 className="font-libre fs-1 text-white">Realizza il Tuo Progetto con un Partner Affidabile.</h2>
                 <p className="fs-5 mt-4" style={{ color: "#ffffffff" }}>Sia che tu stia pensando di costruire la casa dei tuoi sogni, riqualificare un immobile esistente o sviluppare un nuovo spazio commerciale, sono qui per trasformare la tua visione in una solida realtà, con passione e competenza.</p>
             </div>
-            <div className="mt-5 mx-auto d-lg-flex" style={{ width: "85%" }}>
+            <div className="mt-5 mx-auto d-xl-flex" style={{ width: "85%" }}>
                 <div className="w-xl-50 align-items-center d-lg-flex">
-                    <Col xl={6}>
+                    <Col xl={6} className="text-center me-2">
                         <img src="/foto.jpg" style={{ width: "20em" }} />
                     </Col>
                     <Col xl={6}>
@@ -41,7 +41,7 @@ const Contacts = () => {
                         </p>
                     </Col>
                 </div>
-                <div className="text-center w-50 m-auto">
+                <div className="text-center w-xl-50 mx-auto">
                     <p className="mb-3 fw-semibold fs-5" style={{ color: "#9CA3AF" }}>Arch. Gennaro Lauri</p>
                     <p className="mb-2">📧 <a className="footer-link text-decoration-none" style={{ color: "#9CA3AF" }}>Email: arch.gennarolauri@gmail.com</a></p>
                     <p className="mb-2">✉️ <a className="footer-link text-decoration-none" style={{ color: "#9CA3AF" }}>Pec: gennaro.lauri@archiworldpec.it</a></p>

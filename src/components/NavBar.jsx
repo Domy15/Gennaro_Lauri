@@ -5,14 +5,14 @@ const NavBar = () => {
         <>
             <Navbar expand="lg" className="bg-white shadow-sm py-3 fixed-top">
                 <Container className="container-custom">
-                    <Navbar.Brand href="#" className="d-flex fw-bold fs-4 m-0">
+                    <Navbar.Brand href="#" className="d-flex align-items-center gap-2">
                         <div className="d-flex align-items-center">
                             <img src="/logo.jpg" style={{ width: "2.5em" }} />
-                            <p className="m-0">Gennaro Lauri <span style={{ color: '#b1977a' }}>Architetto</span></p>
+                            <span className="fw-bold fs-4">Gennaro Lauri <span style={{ color: '#b1977a' }}>Architetto</span></span>
                         </div>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end" >
+                    <Navbar.Collapse id="basic-navbar-nav" className=" justify-content-end" >
                         <Nav className="fw-medium">
                             <Nav.Link href="#filosofia" className="mx-2 text-dark">Filosofia</Nav.Link>
                             <Nav.Link href="#punti" className="mx-2 text-dark">Punti di Forza</Nav.Link>

@@ -1,6 +1,6 @@
 const Philosophy = () => {
     return (
-        <div className="text-center mx-auto padding-standard text-white" id="filosofia" style={{ width: "40%" }}>
+        <div className="text-center mx-auto padding-standard text-white philosophy-container" id="filosofia">
             <h2 className="font-libre fs-1">La Nostra Filosofia</h2>
             <p className="fs-5 mt-4">
                 Nel mondo dell'architettura, non si tratta solo di costruire edifici, ma di creare ambienti che
